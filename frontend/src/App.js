@@ -1,10 +1,20 @@
 import React from 'react'
+import Footer from './components/Footer'
+import {Container} from 'react-bootstrap'
+import Header from './components/Header'
+import './bootstrap.min.css'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <>
+      <Header />
+      <main>
+        <Container>
+          <h1>Welcome To ProShop</h1>
+        </Container>
+      </main>
+      <Footer />
+    </>
   )
 }
 
